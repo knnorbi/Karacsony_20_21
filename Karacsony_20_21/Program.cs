@@ -28,6 +28,8 @@ namespace Karacsony_20_21
             double diyPerEmber = (double)diy / ember;
             Console.WriteLine("Egy ember átlagosan ennyi saját készítésű ajándékot fog kapni: " + diyPerEmber);
 
+            // if (ajandekokSzama == 0)
+            // if (diy == ember * ajandekPerEmber)
             if (diyPerEmber == ajandekPerEmber)
             {
                 Console.WriteLine("Szép munka!");
